@@ -1,0 +1,14 @@
+
+.error {
+  width: 100%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1.5px solid #001e4f; 
+  color: #001e4f; 
+  background:#fb326e;
+  border-radius: 5px; 
+  text-align: left;
+  font-weight: bold;
+
+
+ }

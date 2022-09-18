@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background: url('../img/uhkdup.jpg') no-repeat ;
+    /*background:lightsteelblue;*/
+	background-size: cover;
+	background-position: center;
+    
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.form {
+	background-color:#ffffff;
+	padding: 20px;
+	border-radius: 10px;
+    width:500px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'tahoma';
+	background: #f8f521 ;
+}
+input{
+	background-color: #e1e1da;
+	border: none;
+    
+}
+.form_wrap pre .check_wrap span{
+	
+	font-size: 13px;
+	
+	border-radius: 3px;
+	color: #344ad8;
+    
+
+}
+
+.form_wrap{
+	margin-top: 20px;
+}
+.form_wrap .input_wrap{
+	margin-bottom: 10px;
+}
+.form_wrap .input_wrap:last-child{
+	margin-bottom: 0;
+}
+.form_wrap table .input_wra label{
+	font-size: 13px;
+	color: #383636;
+}
+.form_wrap table pre .input_wra .check_wrap input[type="checkbox"]{
+	margin-left: 0;
+	padding: 0;
+}
+.form_wrap .input_wrap label{
+	display: block;
+	margin-bottom: 5px;
+	color: #000000;
+    font-weight: 600;
+	font-size: 16px;
+}
+.form_wrap .input_grp{
+	display: flex;
+	
+}
+
+.form_wrap  input[type="text"]{
+	width: 100%;
+	border-radius: 3px;
+	
+	padding: 5px;
+}
+
+.id{
+	width: 50%;
+}
+
+
+
+
+.sub{
+    border-radius: 20px;
+	border: 2px solid black;
+	background-color: #031d6d;
+	color: #ffff99;
+    font-weight: bold;
+	margin-top: 10px;
+    font-size: 20px;
+    margin-left: 150px;
+	padding: 10px;
+    letter-spacing: 3px;
+	text-transform: uppercase;
+	cursor: pointer;
+    width: 150px;
+    align-items: center;
+}
+.sub:active {
+	transform: scale(0.90);
+}
+.sub:focus {
+	outline: none;
+}
+.sub:hover{
+	background: #031d6d;
+    
+}

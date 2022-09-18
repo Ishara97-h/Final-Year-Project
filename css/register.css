@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background: url('../img/uhkdup.jpg') no-repeat ;
+    /*background:lightsteelblue;*/
+	background-size: cover;
+	background-position: center;
+	
+    
+}
+.container{
+    padding-top: 20px;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.form {
+	background-color:#ffffff;
+	padding: 20px;
+	border-radius: 10px;
+    width:500px;
+	
+    
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+   
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'tahoma';
+	background: #f8f521 ;
+}
+input{
+	background-color: #e1e1da;
+	border: none;
+}
+.form_wrap{
+	margin-top: 20px;
+}
+.form_wrap .input_wrap{
+	margin-bottom: 10px;
+}
+.form_wrap .input_wrap:last-child{
+	margin-bottom: 0;
+}
+.form_wrap .input_wrap label{
+	display: block;
+	margin-bottom: 5px;
+	color: #000000;
+    font-weight: 600;
+}
+.form_wrap .input_grp{
+	display: flex;
+	
+}
+.bld{
+    margin-left: 50px;
+}
+#bldgrp{
+    width:100%;
+    background-color: #e1e1da;
+    
+    
+    
+}
+.form_wrap .input_wrap input[type="date"]{
+	width: 165px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.form_wrap  input[type="text"]{
+	width: 100%;
+	border-radius: 3px;
+	
+	padding: 5px;
+}
+
+.id{
+	width: 30%;
+}
+.name{
+	width: 100%;
+	margin-left: 70px;
+}
+.form_wrap ul{
+    
+	background: #e1e1da;
+	padding: 4px 10px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+    width: 50%;
+    
+    
+}
+
+.form_wrap ul li:first-child{
+	margin-right: 15px;
+    
+}
+
+.form_wrap ul .radio_wrap span{
+	display: inline-block;
+	font-size: 14px;
+	padding: 3px 20px;
+	border-radius: 3px;
+	color: #545871;
+    
+
+}
+textarea{
+    width:100%;
+    border-radius: 3px;
+    border: none;
+    background-color: #e1e1da;
+}
+.sub{
+    border-radius: 20px;
+	border: 2px solid black;
+	background-color: #031d6d;
+	color: #ffff99;
+    font-weight: bold;
+	margin-top: 10px;
+    font-size: 20px;
+    margin-left: 150px;
+	padding: 10px;
+    letter-spacing: 3px;
+	text-transform: uppercase;
+	cursor: pointer;
+    width: 150px;
+    align-items: center;
+}
+.sub:active {
+	transform: scale(0.90);
+}
+.sub:focus {
+	outline: none;
+}
+.sub:hover{
+	background: #031d6d;
+    
+}
